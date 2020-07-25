@@ -8,15 +8,21 @@
 # counts the number of each letter of the sentence,
 # collects the letters/chars as a key and the counted numbers as a value in a dictionary.
 
-# In[8]:
+# In[10]:
 
 
-sentence = input("Please enter a sentence")
+sentence = input("Please enter a sentence: ")
 
 dictionary = {}
 
 for i in sentence:
     letter = sentence.count(i)
     dictionary[i] = letter
-dictionary
+print(dictionary)
+
+
+# In[ ]:
+
+
+
 
